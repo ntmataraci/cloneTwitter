@@ -11,3 +11,12 @@ It's basic native twitter clone with nextjs ( actually I dont use any nextjs lib
 - Searcing function is working. 
 
 
+after other projects
+I will add:
+
+-mobile responsive design
+-personel messages reply component.
+-another pages
+-firebase connection.
+-get data from trends.in
+
