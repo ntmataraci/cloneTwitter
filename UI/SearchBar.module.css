@@ -1,0 +1,33 @@
+.main{
+   width:100%;
+   border-radius: 2rem;
+   height:2rem;
+   background-color: rgba(204, 204, 204, 0.24);
+   display: flex;
+   align-items: center;
+   margin-top:1rem;
+}
+
+.main:active{
+    border:none;
+}
+
+.icon{
+    height: 0.9rem;
+    min-width:50px;
+width:5%;
+text-align: center;
+fill:rgba(66, 66, 66, 0.479)
+}
+
+.input{
+    background-color: transparent;
+    border:none;
+    outline: none;
+}
+
+.input__focused{
+    background-color: white;
+    outline: none;
+    border:none;
+}

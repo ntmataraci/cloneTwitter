@@ -1,0 +1,47 @@
+.main{
+    height:max-content;
+    border-radius: 3rem;
+    border:none;
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom:25px;
+}
+
+.main:hover{
+    filter:brightness(0.8);
+    transition: 0.2s all linear;
+}
+
+.photo{
+    width:40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.nickName{
+    width:145px;
+    height: 40px;
+    font-size:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nickName__rows{
+    line-height: 15px;
+    align-items: center;
+}
+
+.icon__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    height:0.8rem;
+    font-weight: 600;
+}

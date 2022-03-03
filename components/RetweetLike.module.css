@@ -1,0 +1,14 @@
+.icon{
+    fill:grey;
+    height: 1.2rem;
+    padding:0.2rem;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.icon:hover{
+
+    border-radius: 50%;
+    background-color: rgba(99, 99, 250, 0.452);
+    fill:var(--blue);
+}

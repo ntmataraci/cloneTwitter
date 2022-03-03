@@ -1,0 +1,108 @@
+.main{
+    width:100%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.photo {
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    margin-right:5px;
+
+}
+
+.inputBox{
+height: max-content;
+    min-height: 50px;
+    width: calc(95% - 50px );
+    overflow: hidden;
+    border:none;
+    resize: none;  
+}
+
+.everyoneReplyButton__container{
+    display:block;
+    margin-left:70px;
+    border-bottom:0.25px solid rgba(128, 128, 128, 0.521);
+    padding: 0.5rem 0;
+}
+
+.everyoneReplyButton{
+    background-color: white;
+    width:40%;
+    border-radius: 2rem;
+    border:none;
+    height:1rem;
+    font-size:0.7rem;
+    color:var(--blue);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.everyoneReplyButton:hover{
+    background-color: rgba(135, 207, 235, 0.555);
+}
+
+.worldIcon{
+    height:0.7rem;
+    fill:var(--blue);
+}
+
+.otherIcons{
+    height:0.8rem;
+    fill:var(--blue);
+}
+
+.otherIcons__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    margin-left:70px;
+    padding: 0.5rem 0;
+
+
+}
+
+.tweetButton{
+    font-size:0.8rem;
+    background-color: var(--blue);
+    color:white;
+    width:75px;
+    height:2rem;
+    border-radius: 3rem;
+    border:0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.tweetButton__null{
+    opacity: 0.5;
+    cursor:unset;
+}
+
+.tweetButton__null{
+    filter: none !important;
+}
+
+.tweetButton:hover{
+    filter:brightness(0.8);
+    transition: all 0.2s linear;
+}
+
+.counterHelper{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    font-size:0.6rem;
+width:20px;
+height: 20px;
+text-align: center;
+align-items: center
+}

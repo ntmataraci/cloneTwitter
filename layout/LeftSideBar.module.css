@@ -1,0 +1,54 @@
+.main, .main nav{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 2.8rem;
+    cursor: pointer;
+   
+    margin-top:1rem;
+}
+.main{
+    height: 100%;
+    
+
+}
+
+.icon__home{
+    height:20px;
+    margin-right: 5px;
+}
+
+.menu__rows{
+display: flex;
+align-items: center;
+padding: 0 20px;
+width:fit-content;
+transition: all 0.5s linear;
+border-radius: 1rem;
+padding:0.5rem;
+gap:1rem;
+}
+
+.menu_small_rows:hover{
+    border-radius: 50%!important;
+    padding:0.5rem;
+
+}
+
+.menu__rows:hover{
+    background-color: rgba(158, 158, 158, 0.507);
+    border-radius: 1rem;
+    transition: all 0.5s linear;
+}
+
+.icon__twitter{
+    height: 20px;
+    margin-right: 5px;
+    fill:var(--blue);
+   
+}
+
+.menu__rows:first-child{
+    margin-bottom:15px;
+}
