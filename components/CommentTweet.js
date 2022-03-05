@@ -28,7 +28,7 @@ const msgText = (e) =>{
         <div className={style.main}>
 <div style={{margin:"1rem"}} onClick={replied}>X</div>
 <UserProfile userList={filteredData}/>
-<div style={{display:"flex",flexWrap:"wrap",justifyContent:"center"}}>
+<div style={{display:"flex"}}>
 <div className={style.line__container}><div className={style.line}></div></div>
 <div style={{width:"350px",fontSize:"0.6rem",margin:"1rem auto"}}>Replying to <span style={{color:"var(--blue)"}}>{filteredData[0].mail}</span></div>
 </div>

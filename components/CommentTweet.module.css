@@ -9,14 +9,16 @@
 }
 
 .main{
-    width:400px;
+    max-width:400px;
+    width:90%;
     height: 200px;
     margin:auto;
     z-index: 2;
     background-color: white;
     position:absolute;
     top:2rem;
-    left:calc(50% - 200px);
+    left:max(calc(50% - 200px) , 1rem );
+
     border-radius: 2rem;
 }
 
