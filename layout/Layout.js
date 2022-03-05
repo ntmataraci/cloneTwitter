@@ -33,20 +33,22 @@ const Layout = ({children}) =>{
     
 const [menuOp,setMenuOp]=useState(false)
 const menuSit = (x) =>{ 
+  console.log(menuOp)
 setMenuOp(x)
 }
-//width under is mobile
+
+//width under 600 is mobile
 return(
     
         <>
         {windowSize.width<600?
         <>
-        <Header getMenuOp = {menuOp} menuHandler={menuSit}/>
+        <Header menuHandler={menuSit}/>
 
-        <LeftOpenMenu menuWidth={menuOp} />
+        <LeftOpenMenu menuWidth={menuOp} menuHandlerLeft={menuSit}  />
 
         <MessageBlock myData={messages}/>
-        <Bottom/>
+        <Bottom sendMenu={menuOp}/>
         </>
         :
 
