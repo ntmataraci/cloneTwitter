@@ -1,4 +1,4 @@
-live demo : https://clonetwitter-7t7hrzqsl-ntmataraci.vercel.app/
+live demo :https://clonetwitter-chi.vercel.app/home
 
 note : it has not fully responsive for mobile phones. But theme is changed with screen width for small windows.
 
